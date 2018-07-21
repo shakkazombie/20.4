@@ -4,6 +4,8 @@ import { Router, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import store from './store';
 import routes from './routes';
+import "./country.css";
+import DevTools from './DevTools';
 
 render(
     <Provider store={store}>
@@ -11,3 +13,4 @@ render(
     </Provider>,
     document.getElementById('root')
 ); 
+
